@@ -1,10 +1,11 @@
+import datetime
+import json
+import os
 import socket
 import threading
-from tkinter import Text, END
-import datetime
+from tkinter import END, Text
+
 import numpy as np
-import os
-import json
 
 alarmControllerFile = "files/alarm_controller.json"
 alarmServoFile = "files/alarm_servo.json"
